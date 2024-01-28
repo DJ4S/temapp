@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Exo+2:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/*
+font-family: 'Bungee', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Teko', sans-serif;
+*/
+
+
+body{
+  width: 100%;
+  background-color: #57c0bf;
+}
+/* CONTENEDOR HEADER ---------------------------------------------------------- */
+
+header{
+  background-color:#0a929e;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: 50px; 
+}
+
+#logo_tempad{
+  width: 60px;
+  margin-right: 50px;
+  margin-left: 75px;
+}
+
+#div_buscador{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto_init{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+}
+
+#barra_buscadora{
+  width: 40%;
+  padding: 10px;
+  padding-left: 20px;
+  border: 0;
+  border-radius: 20px;
+  background: #05d8dd;
+}
+
+#boton_busqueda{
+  margin-left: 5px;
+  border-radius: 20px;
+
+}
+
+/* CONTENEDOR BODY ---------------------------------------------------------- */
+
+#grid_conjunto{
+  display: grid;
+  grid-auto-rows: 250px;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  row-gap: 1rem;
+  column-gap: 1rem;
+  width: 80%;
+  margin: auto;
+}
+
+#grid1{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  padding: 1rem;
+  grid-column: span 3/span 2;
+  background-color: #57c0bf;
+}
+
+#grid2{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  padding: 1rem;
+  background-color: #57c0bf;
+  
+}
+
+#grid3{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  padding: 1rem;
+  grid-column: span 2/span 1;
+  background-color: #57c0bf;
+}
+
+#grid4{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  grid-column: span 2/span 1;
+  padding: 1rem;
+  background-color: #57c0bf;
+}
+
+#grid5{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  padding: 1rem;
+  background-color: #57c0bf;
+}
+
+#grid6{
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+  border-radius: .75rem;
+  border-width: 2px;
+  border-color: rgba(148,163,184,.1);
+  padding: 1rem;
+  grid-column: span 3/span 2;
+  background-color: #57c0bf;
+}
+
+/* CONTENEDOR FOOTER ---------------------------------------------------------- */
+
+footer {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+  }
+      
+  footer hr{
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  
+  #copy{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;  
+    display: flex;
+    color: #2d6a4f;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    align-items: center;
+    max-width: 80%;
+  }
+  
+  footer span {
+    font-size: 25px;
+    padding-right: 3px;
+    
+  }
+  
+  #texto_logo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: flex;
+    color: #2d6a4f;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+  
+    align-items: center;
+  }
+  
+  footer > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: 10px;
+  
+  
+  }
+  
+  #enlaces{
+    display: flex;
+    max-width: 80%;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  #enlaces a {
+    margin-right: 25px;
+  }
+  
+  @media(max-width: 700px){
+  
+    footer {
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    #enlaces a {
+      margin-right: 10px;
+      
+    }
+  }
